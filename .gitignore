@@ -1,0 +1,32 @@
+#  _   _    ___    _____   _____
+# | \ | |  / _ \  |_   _| | ____|
+# |  \| | | | | |   | |   |  _|
+# | |\  | | |_| |   | |   | |___
+# |_| \_|  \___/    |_|   |_____|
+
+# DO NOT MODIFY THIS FILE
+# ESPECIALLY IF YOU'RE TRYING TO ADD THE WORLD TO GITHUB
+# I WILL THROAT CHOP YOU
+
+
+# exclude everything from vcs
+/*
+!.gitignore
+
+
+# include admin things
+!config.json
+!whitelist.json
+!usercache.json
+!banned-*.json
+!ops.json
+
+!server.properties
+!eula.txt
+
+# include mods if applicable
+!/mods/
+!/plugins/
+
+# include datapacks, these will be symlinked into /world/datapacks
+!/datapacks/

@@ -1,0 +1,17 @@
+{
+    "metadata": {
+        "format_version": 1,
+        "repository": {
+            "tag": "0.0.0-test",
+            "location": "github.com/JaegyuDev/public-server"
+        }
+    },
+    "server": {
+        "java_path": "/usr/lib/jvm/java-21-openjdk-amd64/bin/java",
+        "jar": "server.jar",
+        "args": [
+            "-Xms1024M",
+            "-Xmx1024M"
+        ]
+    }
+}
