@@ -3,7 +3,7 @@
         "format_version": 1,
         "repository": {
             "tag": "0.0.0-test",
-            "location": "github.com/JaegyuDev/public-server"
+            "location": "github.com/JaegyuDev/mc-server-tracked-template"
         }
     },
     "server": {

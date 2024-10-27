@@ -12,7 +12,7 @@
 # exclude everything from vcs
 /*
 !.gitignore
-
+!README.md
 
 # include admin things
 !config.json
